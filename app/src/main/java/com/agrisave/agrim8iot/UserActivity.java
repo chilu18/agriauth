@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class UserActivity extends AppCompatActivity {
+
     Button btnLogOut;
     FirebaseAuth firebaseAuth;
     private FirebaseAuth.AuthStateListener authStateListener;
